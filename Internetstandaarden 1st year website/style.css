@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Body start */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* Body end */
+
+
+/* Nav start */
+nav {
+    background-color: rgb(19, 19, 36);
+    height: 10vh;
+    padding: 20px 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style: none;;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+nav li a:hover {
+    color: rgb(23, 178, 255);
+    transition: all 0.2s ease;
+}
+
+nav h1 {
+    color: white;
+    font-size: 40px;
+}
+/* Nav end */
+
+
+/* Main start */
+main {
+    height: 90vh;
+    background-color: rgb(19, 19, 36);
+    text-align: center;
+}
+
+main h1 {
+    color: rgb(52, 159, 252);
+    padding-top: 100px;
+    font-size: 285px;
+    opacity: 40%;
+}
+
+main p {
+    color: rgb(0, 90, 208);
+    font-size: 30px;
+}
+/* Main end */
+
+
+/* Footer start */
+footer {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(19, 19, 36);
+    align-items: center;
+}
+
+footer p {
+    color: rgb(1, 185, 210);
+}
+
+footer h3 {
+    color: white;
+    font-size: 40px;
+    padding: 30px 10px;
+    padding-bottom: 20px;
+}
+/* Footer end */
