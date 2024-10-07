@@ -14,10 +14,21 @@
 
 /* Navigatie start */
 nav {
-    background-color: rgb(19, 19, 36);
-    height: 10vh;
-    padding: 20px 250px;
+    height: 12vh;
+    padding-top: 3em;
     display: flex;
+    background-color: rgb(247, 234, 234);
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_container {
+    height: 10vh;
+    width: 140vh;
+    display: flex;
+    padding: 20px 100px;
+    background-color: rgb(36, 36, 71);
+    border-radius: 5em;
     justify-content: space-between;
     align-items: center;
 }
@@ -31,7 +42,7 @@ nav li {
 }
 
 nav li a {
-    color: #fff;
+    color: rgb(247, 234, 234);
     padding: 10px 30px;
     text-decoration: none;
     transition: all 0.3s ease;
@@ -39,15 +50,21 @@ nav li a {
 }
 
 nav li a:hover {
-    color: rgb(23, 178, 255);
+    color: rgb(211, 179, 0);
     transition: all 0.2s ease;
 }
 
 #navbar_logo {
-    color: white;
+    color: rgb(52, 159, 252);
     font-size: 40px;
     font-weight: bold;
     text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+#navbar_logo:hover {
+    color: rgb(128, 196, 255);
+    transition: all 0.2s ease;
 }
 /* Navigatie end */
 
@@ -56,46 +73,49 @@ nav li a:hover {
 /* Homepage start (begin van de Homepage content)*/
 /* Main start */
 main {
-    height: 90vh;
-    background-color: rgb(19, 19, 36);
+    height: 80vh;
+    background-color: rgb(247, 234, 234);
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 main h1 {
-    color: rgb(52, 159, 252);
-    padding-top: 200px;
-    font-size: 285px;
-    opacity: 40%;
+    color: rgb(68, 68, 138);
+    font-size: 16em;
 }
 
 main p {
-    color: rgb(0, 90, 208);
-    font-size: 30px;
+    color: rgb(211, 179, 0);
+    font-size: 3em;
 }
 /* Main end */
 
 /* Decription start */
 .description {
     height: 160vh;
-    background-color: white;
+    background-color: rgb(247, 234, 234);
 }
 .description_container {
     display: flex;
     padding-top: 8em;
     column-gap: 6em;
-    justify-content: center;    
+    justify-content: center;
+    padding-bottom: 10em;    
 }
 
 .description p {
-    font-size: 3em;
-    color: rgb(26, 72, 133);
+    font-size: 4em;
+    color: rgb(68, 68, 138);
     padding-top: 1.5em;
     text-align: center;
 }
 
 .description_container p {
     font-size: 3em;
-    color: rgb(26, 72, 133);
+    color: white;
     padding-top: 3.3em;
     text-align: center;
 }
@@ -103,27 +123,24 @@ main p {
 .description_1 {
     height: 30em;
     width: 40em;
-    background-color: white;
-    border: 0.3em solid rgb(52, 159, 252);
-    border-radius: 0.5em;
+    background-color: rgb(36, 36, 71);
+    border-radius: 2em;
     transition: all 0.3s ease;
 }
 
 .description_2 {
     height: 30em;
     width: 40em;
-    background-color: white;
-    border: 0.3em solid rgb(52, 159, 252);
-    border-radius: 0.5em;
+    background-color: rgb(36, 36, 71);
+    border-radius: 2em;
     transition: all 0.3s ease;
 }
 
 .description_3 {
     height: 30em;
     width: 40em;
-    background-color: white;
-    border: 0.3em solid rgb(52, 159, 252);
-    border-radius: 0.5em;
+    background-color: rgb(36, 36, 71);
+    border-radius: 2em;
     transition: all 0.3s ease;
 }
 
@@ -148,10 +165,10 @@ main p {
 }
 
 .container_photo img {
-    height: 58em;
+    height: 50em;
     width: 80em;
     margin: 0 auto;
-    padding-top: 10em;
+    border-radius: 3em;
 }
 /* Description end */
 /* Homepage end (einde van de Homepage content)*/
@@ -162,8 +179,9 @@ main p {
 /* Over ons start */
 .about_us {
     height: 100vh;
-    column-gap: 3em;
+    column-gap: 5em;
     display: flex;
+    background-color: rgb(247, 234, 234);
     align-items: center;
     justify-content: center;
 }
@@ -172,24 +190,29 @@ main p {
     height: 50em;
     width: auto;
     border-radius: 1em;
+    transition: all 0.3s ease;
 }
 
 .about_us_photo img:hover {
-    transform: scale(1.02);
+    transform: scale(1.01);
     transition: all 0.3s ease;
 }
 
 .about_us_container {
-    background-color: white;
+    background-color: rgb(36, 36, 71);
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-left: 1em;
     height: 50em;
     width: 52em;
-    border: 0.3em solid rgb(52, 159, 252);
     border-radius: 1em;
-    
+    transition: all 0.3s ease;
+}
+
+.about_us_container:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease;
 }
 
 .about_us h2 {
@@ -199,7 +222,7 @@ main p {
 }
 
 .about_us p {
-    color: rgb(19, 19, 36);
+    color: rgb(239, 250, 234);
     font-size: 1.7em;
     width: 30em;
     padding-bottom: 2em;
@@ -213,7 +236,7 @@ main p {
 /* Info start */
 .info {
     height: 110vh;
-    background-color: rgb(29, 29, 54);
+    background-color: rgb(247, 234, 234);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,13 +245,19 @@ main p {
 .info_container {
     height: 80vh;
     width: 150vh;
-    background-color: white;
+    background-color: rgb(36, 36, 71);
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
     margin: 0;
-    border-radius: 1em;
+    border-radius: 4em;
+    transition: all 0.3s ease;
+}
+
+.info_container:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease;
 }
 
 .info_container h2 {
@@ -239,7 +268,7 @@ main p {
 
 .info_container p {
     font-size: 2.5em;
-    color: rgb(19, 19, 36);
+    color: white;
 }
 /* Info end */
 /* Contact page end (einde van de contact info) */
@@ -251,19 +280,19 @@ footer {
     height: 17vh;
     display: flex;
     flex-direction: column;
-    background-color: rgb(19, 19, 36);
+    background-color: rgb(36, 36, 71);
     align-items: center;
 }
 
 footer p {
     color: rgb(1, 185, 210);
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 footer h3 {
     color: white;
-    font-size: 3.5em;
-    padding: 0.6em 1em;
+    font-size: 3em;
+    padding: 1em 1em;
     padding-bottom: 0.3em;
 }
 /* Footer end */
